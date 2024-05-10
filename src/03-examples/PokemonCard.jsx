@@ -17,7 +17,7 @@ export const PokemonCard = ({ id, name, sprites = []} = {}) => {
 }
 
 PokemonCard.propTypes = {
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     sprites: PropTypes.array.isRequired
 }
